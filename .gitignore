@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Django
+backend/db.sqlite3
+backend/*.log
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.env*.local
+
+# Claude
+.claude/
+
+# Misc
+*.pem
+.vercel
